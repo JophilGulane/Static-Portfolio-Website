@@ -1,0 +1,129 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-family: cursive;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+
+
+body {
+    color: bisque;
+    margin-top: 200px;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+}
+
+.text {
+
+    width: 625px;
+    height: auto;
+    color: rgb(255, 238, 216);
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1;
+    margin-top: 100px;
+}
+
+.main {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: auto;
+    height: 175px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 25px;
+    background-color: burlywood;
+}
+
+
+.container-2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border: 3px;
+    border-radius: 25px;
+    background-color: rgb(118, 86, 45);
+}
+
+button:hover {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border: 3px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: white;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li:hover {
+    color: gray;
+    border: 3px;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+td , th{
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+}
+
+table {
+    width: 300px;
+}
