@@ -1,5 +1,5 @@
     # Static-Portfolio-Website
-# First Semester of my First Year as a Computer Science Student
+###### First Semester of my First Year as a Computer Science Student
 My Final Project in Intro to Computing / CC1
 ### 11-16-2023
 
